@@ -25,6 +25,6 @@ public class Human {
 
   @Override
   public String toString() {
-    return getClass().getSimpleName() + " named " + name;
+    return String.format("%s named %s", getClass().getSimpleName(), name);
   }
 }
